@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #efefef;
+}
+
+.pomodoro-timer{
+    background-color: white;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #202020;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+}
+
+.pomodoro-timer .title{
+    font-family: "Libre Baskerville", serif;
+    font-size: 35px;
+}
+
+.pomodoro-timer #timer{
+    font-size: 60px;
+}
+
+.pomodoro-timer .button-wrapper button{
+    font-size: 19px;
+    margin-bottom: 20px;
+    background-color: #0097b2;
+    color: white;
+    border: 2px solid #ffbd59;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 3px;
+    margin-right: 3px;
+}
