@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", () => {
+
 const startEl = document.getElementById("start");
 const stopEl = document.getElementById("stop");
 const resetEl = document.getElementById("reset");
@@ -51,3 +53,4 @@ function resetTimer(){
 startEl.addEventListener("click", startTimer);
 stopEl.addEventListener("click", stopTimer);
 resetEl.addEventListener("click", resetTimer);
+})

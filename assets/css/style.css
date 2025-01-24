@@ -1,7 +1,9 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #efefef;
+.et_pb_code_0 {
+    background: none !important; /* Remove any background */
+    background-color: transparent !important; /* Force transparency */
+    box-shadow: none !important; /* Remove any default shadow */
+    border: none !important; /* Remove border if present */
+    padding: 0 !important; /* Reset padding if necessary */
 }
 
 .pomodoro-timer{
@@ -19,10 +21,14 @@ body{
 .pomodoro-timer .title{
     font-family: "Libre Baskerville", serif;
     font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .pomodoro-timer #timer{
     font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .pomodoro-timer .button-wrapper button{
@@ -36,4 +42,6 @@ body{
     cursor: pointer;
     margin-left: 3px;
     margin-right: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
